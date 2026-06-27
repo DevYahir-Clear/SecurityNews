@@ -1,0 +1,22 @@
+{
+  "name": "securityscope-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@azure/communication-email": "^1.1.0",
+    "better-sqlite3": "^11.10.0",
+    "cors": "^2.8.6",
+    "express": "^4.22.2",
+    "node-cron": "^3.0.3",
+    "rss-parser": "^3.13.0"
+  }
+}
